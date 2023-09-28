@@ -27,5 +27,5 @@ function enviarCorreo(event) {
   })
   }
 
-  const submitButton = document.querySelector('button[type="button"]');
+  const submitButton = document.getElementById('submitButton');
 submitButton.addEventListener("click", enviarCorreo);
