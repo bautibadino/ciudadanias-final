@@ -996,5 +996,10 @@ section {
   justify-content: center;
 }
 
-
-
+.link-wp{
+  color: var(--color-rojo-italia--hover);
+}
+.link-wp:hover{
+  color: var(--color-rojo-italia--hover);
+  scale: 1.1;
+}
