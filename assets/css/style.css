@@ -1003,3 +1003,24 @@ section {
   color: var(--color-rojo-italia--hover);
   scale: 1.1;
 }
+
+.services-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.services-bottom p{
+  font-size: 1.4rem;
+  color: var(--color-rojo-italia--hover);
+  padding: 2rem;
+  text-align: center;
+}
+
+.services-bottom a{
+  text-decoration: none;
+  color: var(--color-verde-italia-hover);
+}
